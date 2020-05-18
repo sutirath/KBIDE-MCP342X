@@ -1,6 +1,6 @@
 {
-  "name": "KBIDE-MCP342X",
-  "title" : "KBIDE-MCP342X",
+  "name": "MCP342X-KBIDE",
+  "title" : "MCP342X-KBIDE",
   "keywords": "MCP342X,mutipleximg",
   "description": "KBIDE Library for MCP342X",
   "category":"Sensors",
