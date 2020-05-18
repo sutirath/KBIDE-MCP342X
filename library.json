@@ -5,10 +5,10 @@
   "description": "KBIDE Library for MCP342X",
   "category":"Sensors",
   "license": "",
-  "git": "https://github.com/comdet/kbide-mlx90614/",
+  "git": "https://github.com/sutirath/KBIDE-MCP342X",
   "author": "blocks MCP342X",
   "email": "",
-  "url": "https://github.com/adafruit/Adafruit-MLX90614-Library",
+  "url": "https://github.com/sutirath/KBIDE-MCP342X",
   "version": "1.0.0",
   "platform": ["arduino-esp32","arduino-avr"],
   "image" : "/static/display.jpg"
