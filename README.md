@@ -1,0 +1,2 @@
+# KBIDE-MCP342X
+MCP342X-plugin for KB-IDE
