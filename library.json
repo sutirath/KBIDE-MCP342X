@@ -9,7 +9,7 @@
   "author": "blocks MCP342X",
   "email": "",
   "url": "https://github.com/sutirath/KBIDE-MCP342X",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "platform": ["arduino-esp32","arduino-avr"],
   "image" : "/static/display.jpg"
 }
