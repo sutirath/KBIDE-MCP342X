@@ -1,0 +1,218 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="factory_base" id="T$eNYc%P@Lzd57QowM3L" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"/>
+    <field name="NAME">mlx90614_begin</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="RMcbo405#VdD7Rf%D;@J">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="NYmA$78nHp)%X,|#DNHG">
+            <field name="TEXT">MLX90614 begin</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="3H@H6qAc#P9f(0rV}~RX" deletable="false" movable="false">
+        <field name="TEXT">start sensor MLX90614</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]nMAuDBXk!)g0J^rG13?" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="b?ic8EsIr@}64i!^QY+5"/>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="d{H/!{v@Fzs7c}{jLQqX"/>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="0UJ)zRNb$!4TXXats@LH">
+        <mutation colour="#a55b5b"/>
+        <field name="HUE">0</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="T$eNYc%P@Lzd57QowM3L" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"/>
+    <field name="NAME">mlx90614_read_object_temp_c</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="RMcbo405#VdD7Rf%D;@J">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="NYmA$78nHp)%X,|#DNHG">
+            <field name="TEXT">MLX90614 read object temperature (C)</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="3H@H6qAc#P9f(0rV}~RX" deletable="false" movable="false">
+        <field name="TEXT">MLX90614 read object temperature (C)</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]nMAuDBXk!)g0J^rG13?" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="~i=u`ghMZgs,5[mv?Rx}"/>
+      <block type="type_group" id="o%]*HKKfb9CMvg8`_ski">
+        <mutation types="2"/>
+        <value name="TYPE0">
+          <block type="type_other" id="#nn!ri[Hm}00euZ*)R/s">
+            <field name="TYPE">double</field>
+          </block>
+        </value>
+        <value name="TYPE1">
+          <block type="type_number" id="hDF`0Nc.O]gjF!FO-Tio"/>
+        </value>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="0UJ)zRNb$!4TXXats@LH">
+        <mutation colour="#a55b5b"/>
+        <field name="HUE">0</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="T$eNYc%P@Lzd57QowM3L" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"/>
+    <field name="NAME">mlx90614_read_object_temp_f</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="RMcbo405#VdD7Rf%D;@J">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="NYmA$78nHp)%X,|#DNHG">
+            <field name="TEXT">MLX90614 read object temperature (F)</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="3H@H6qAc#P9f(0rV}~RX" deletable="false" movable="false">
+        <field name="TEXT">MLX90614 read object temperature (F)</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]nMAuDBXk!)g0J^rG13?" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="H.y1EOk9R,X^Vrr[Ps?X"/>
+      <block type="type_group" id="o%]*HKKfb9CMvg8`_ski">
+        <mutation types="2"/>
+        <value name="TYPE0">
+          <block type="type_other" id="#nn!ri[Hm}00euZ*)R/s">
+            <field name="TYPE">double</field>
+          </block>
+        </value>
+        <value name="TYPE1">
+          <block type="type_number" id="hDF`0Nc.O]gjF!FO-Tio"/>
+        </value>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="0UJ)zRNb$!4TXXats@LH">
+        <mutation colour="#a55b5b"/>
+        <field name="HUE">0</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="T$eNYc%P@Lzd57QowM3L" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"/>
+    <field name="NAME">mlx90614_read_ambient_temp_c</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="RMcbo405#VdD7Rf%D;@J">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="NYmA$78nHp)%X,|#DNHG">
+            <field name="TEXT">MLX90614 read ambient temperature (C)</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="3H@H6qAc#P9f(0rV}~RX" deletable="false" movable="false">
+        <field name="TEXT">MLX90614 read object temperature (C)</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]nMAuDBXk!)g0J^rG13?" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="W+wje#t]tb!=BBr/sz;z"/>
+      <block type="type_group" id="o%]*HKKfb9CMvg8`_ski">
+        <mutation types="2"/>
+        <value name="TYPE0">
+          <block type="type_other" id="#nn!ri[Hm}00euZ*)R/s">
+            <field name="TYPE">double</field>
+          </block>
+        </value>
+        <value name="TYPE1">
+          <block type="type_number" id="hDF`0Nc.O]gjF!FO-Tio"/>
+        </value>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="0UJ)zRNb$!4TXXats@LH">
+        <mutation colour="#a55b5b"/>
+        <field name="HUE">0</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="T$eNYc%P@Lzd57QowM3L" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"/>
+    <field name="NAME">mlx90614_read_ambient_temp_f</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="RMcbo405#VdD7Rf%D;@J">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="NYmA$78nHp)%X,|#DNHG">
+            <field name="TEXT">MLX90614 read ambient temperature (F)</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="3H@H6qAc#P9f(0rV}~RX" deletable="false" movable="false">
+        <field name="TEXT">MLX90614 read object temperature (F)</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]nMAuDBXk!)g0J^rG13?" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="urE.@]Q1V#Gvamzo!(he"/>
+      <block type="type_group" id="o%]*HKKfb9CMvg8`_ski">
+        <mutation types="2"/>
+        <value name="TYPE0">
+          <block type="type_other" id="#nn!ri[Hm}00euZ*)R/s">
+            <field name="TYPE">double</field>
+          </block>
+        </value>
+        <value name="TYPE1">
+          <block type="type_number" id="hDF`0Nc.O]gjF!FO-Tio"/>
+        </value>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="0UJ)zRNb$!4TXXats@LH">
+        <mutation colour="#a55b5b"/>
+        <field name="HUE">0</field>
+      </block>
+    </value>
+  </block></xml>

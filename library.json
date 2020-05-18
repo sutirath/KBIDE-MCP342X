@@ -1,0 +1,15 @@
+{
+  "name": "KBIDE-MCP342X",
+  "title" : "KBIDE-MCP342X",
+  "keywords": "MCP342X,mutipleximg",
+  "description": "KBIDE Library for MCP342X",
+  "category":"Sensors",
+  "license": "",
+  "git": "https://github.com/comdet/kbide-mlx90614/",
+  "author": "blocks MCP342X",
+  "email": "",
+  "url": "https://github.com/adafruit/Adafruit-MLX90614-Library",
+  "version": "1.0.0",
+  "platform": ["arduino-esp32","arduino-avr"],
+  "image" : "/static/display.jpg"
+}
